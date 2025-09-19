@@ -1,0 +1,65 @@
+{
+  "bookmarks": [
+    { "category": "AI assistants", "name": "ChatGPT", "url": "https://chatgpt.com" },
+    { "category": "AI assistants", "name": "Grok", "url": "https://x.com" },
+    { "category": "AI assistants", "name": "Claude", "url": "https://claude.ai" },
+    { "category": "AI assistants", "name": "Gemini", "url": "https://gemini.google.com" },
+
+    { "category": "Video generation", "name": "Synthesia", "url": "https://synthesia.io" },
+    { "category": "Video generation", "name": "Google Veo", "url": "https://deepmind.google" },
+    { "category": "Video generation", "name": "OpusClip", "url": "https://www.opus.pro" },
+
+    { "category": "Image generation", "name": "Nano Banana", "url": "https://aistudio.google.com" },
+    { "category": "Image generation", "name": "GPT-4o", "url": "https://chatgpt.com" },
+    { "category": "Image generation", "name": "Midjourney", "url": "https://www.midjourney.com" },
+
+    { "category": "Meeting assistants", "name": "Fathom", "url": "https://www.fathom.video" },
+    { "category": "Meeting assistants", "name": "Nyota", "url": "https://www.nyota.ai" },
+
+    { "category": "Automation", "name": "n8n", "url": "https://n8n.io" },
+    { "category": "Automation", "name": "Manus", "url": "https://manus.im" },
+
+    { "category": "Research", "name": "Deep Research", "url": "https://chatgpt.com" },
+    { "category": "Research", "name": "NotebookLM", "url": "https://notebooklm.google" },
+
+    { "category": "Writing", "name": "Rytr", "url": "https://rytr.me" },
+    { "category": "Writing", "name": "Sudowrite", "url": "https://sudowrite.com" },
+
+    { "category": "Search engines", "name": "Google AI Mode", "url": "https://blog.google" },
+    { "category": "Search engines", "name": "Perplexity", "url": "https://www.perplexity.ai" },
+    { "category": "Search engines", "name": "ChatGPT search", "url": "https://chatgpt.com" },
+
+    { "category": "Graphic design", "name": "Canva Magic Studio", "url": "https://www.canva.com" },
+    { "category": "Graphic design", "name": "Looka", "url": "https://looka.com" },
+
+    { "category": "App builders & coding tools", "name": "Lovable", "url": "https://lovable.dev" },
+    { "category": "App builders & coding tools", "name": "Cursor", "url": "https://www.cursor.com" },
+
+    { "category": "Knowledge management", "name": "Notion Q&A", "url": "https://www.notion.com" },
+    { "category": "Knowledge management", "name": "Guru", "url": "https://www.getguru.com" },
+
+    { "category": "Email", "name": "Hubspot Email Writer", "url": "https://www.hubspot.com" },
+    { "category": "Email", "name": "Fyxer", "url": "https://www.fyxer.com" },
+    { "category": "Email", "name": "Shortwave", "url": "https://www.shortwave.com" },
+
+    { "category": "Scheduling", "name": "Reclaim", "url": "https://reclaim.ai" },
+    { "category": "Scheduling", "name": "Clockwise", "url": "https://www.getclockwise.com" },
+
+    { "category": "Presentations", "name": "Gamma", "url": "https://gamma.app" },
+    { "category": "Presentations", "name": "Copilot for PowerPoint", "url": "https://support.microsoft.com" },
+
+    { "category": "Resume builders", "name": "Teal", "url": "https://www.tealhq.com" },
+    { "category": "Resume builders", "name": "Kickresume", "url": "https://www.kickresume.com" },
+
+    { "category": "Voice generation", "name": "ElevenLabs", "url": "https://elevenlabs.io" },
+    { "category": "Voice generation", "name": "Murf", "url": "https://murf.ai" },
+
+    { "category": "Music generation", "name": "Suno", "url": "https://suno.com" },
+    { "category": "Music generation", "name": "Udio", "url": "https://www.udio.com" },
+
+    { "category": "Marketing", "name": "AdCreative", "url": "https://www.adcreative.ai" },
+    { "category": "Marketing", "name": "AirOps", "url": "https://www.airops.com" },
+
+    { "category": "Sales", "name": "Attio", "url": "https://attio.com" }
+  ]
+}
