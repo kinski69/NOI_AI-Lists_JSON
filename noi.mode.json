@@ -1,0 +1,111 @@
+{
+  "name": "Noi Cache Mode",
+  "version": "0.2.0",
+  "sync": "",
+  "mode_main": "https://gemini.google.com",
+  "mode_tray": "https://chat.openai.com",
+  "mode_partition": "",
+  "ua_main": "",
+  "ua_tray": "",
+  "noi_ask": [],
+  "modes": [
+    { "id": "noi@aiassistants", "parent": 0, "dir": true, "text": "AI assistants" },
+    { "id": "noi@videogen", "parent": 0, "dir": true, "text": "Video generation" },
+    { "id": "noi@imagegen", "parent": 0, "dir": true, "text": "Image generation" },
+    { "id": "noi@meeting", "parent": 0, "dir": true, "text": "Meeting assistants" },
+    { "id": "noi@automation", "parent": 0, "dir": true, "text": "Automation" },
+    { "id": "noi@research", "parent": 0, "dir": true, "text": "Research" },
+    { "id": "noi@writing", "parent": 0, "dir": true, "text": "Writing" },
+    { "id": "noi@search", "parent": 0, "dir": true, "text": "Search engines" },
+    { "id": "noi@design", "parent": 0, "dir": true, "text": "Graphic design" },
+    { "id": "noi@apps", "parent": 0, "dir": true, "text": "App builders & coding tools" },
+    { "id": "noi@knowledge", "parent": 0, "dir": true, "text": "Knowledge management" },
+    { "id": "noi@email", "parent": 0, "dir": true, "text": "Email" },
+    { "id": "noi@scheduling", "parent": 0, "dir": true, "text": "Scheduling" },
+    { "id": "noi@presentations", "parent": 0, "dir": true, "text": "Presentations" },
+    { "id": "noi@resume", "parent": 0, "dir": true, "text": "Resume builders" },
+    { "id": "noi@voice", "parent": 0, "dir": true, "text": "Voice generation" },
+    { "id": "noi@music", "parent": 0, "dir": true, "text": "Music generation" },
+    { "id": "noi@marketing", "parent": 0, "dir": true, "text": "Marketing" },
+    { "id": "noi@sales", "parent": 0, "dir": true, "text": "Sales" },
+    { "id": "noi@dev", "parent": 0, "dir": true, "text": "Dev" },
+    { "id": "noi@community", "parent": 0, "dir": true, "text": "Community" },
+
+    { "id": "noi:chatgpt", "parent": "noi@aiassistants", "text": "ChatGPT", "url": "https://chatgpt.com" },
+    { "id": "noi:grok", "parent": "noi@aiassistants", "text": "Grok", "url": "https://x.com" },
+    { "id": "noi:claude", "parent": "noi@aiassistants", "text": "Claude", "url": "https://claude.ai" },
+    { "id": "noi:gemini", "parent": "noi@aiassistants", "text": "Gemini", "url": "https://gemini.google.com" },
+
+    { "id": "noi:synthesia", "parent": "noi@videogen", "text": "Synthesia", "url": "https://synthesia.io" },
+    { "id": "noi:veo", "parent": "noi@videogen", "text": "Google Veo", "url": "https://deepmind.google" },
+    { "id": "noi:opusclip", "parent": "noi@videogen", "text": "OpusClip", "url": "https://www.opus.pro" },
+    { "id": "noi:youtube", "parent": "noi@video", "text": "YouTube", "url": "https://www.youtube.com" },
+
+    { "id": "noi:nanobanana", "parent": "noi@imagegen", "text": "Nano Banana", "url": "https://aistudio.google.com" },
+    { "id": "noi:gpt4o", "parent": "noi@imagegen", "text": "GPT-4o", "url": "https://chatgpt.com" },
+    { "id": "noi:midjourney", "parent": "noi@imagegen", "text": "Midjourney", "url": "https://www.midjourney.com" },
+
+    { "id": "noi:fathom", "parent": "noi@meeting", "text": "Fathom", "url": "https://www.fathom.video" },
+    { "id": "noi:nyota", "parent": "noi@meeting", "text": "Nyota", "url": "https://www.nyota.ai" },
+
+    { "id": "noi:n8n", "parent": "noi@automation", "text": "n8n", "url": "https://n8n.io" },
+    { "id": "noi:manus", "parent": "noi@automation", "text": "Manus", "url": "https://manus.im" },
+
+    { "id": "noi:deepresearch", "parent": "noi@research", "text": "Deep Research", "url": "https://chatgpt.com" },
+    { "id": "noi:notebooklm", "parent": "noi@research", "text": "NotebookLM", "url": "https://notebooklm.google" },
+
+    { "id": "noi:rytr", "parent": "noi@writing", "text": "Rytr", "url": "https://rytr.me" },
+    { "id": "noi:sudowrite", "parent": "noi@writing", "text": "Sudowrite", "url": "https://sudowrite.com" },
+
+    { "id": "noi:googleaimode", "parent": "noi@search", "text": "Google AI Mode", "url": "https://blog.google" },
+    { "id": "noi:perplexity", "parent": "noi@search", "text": "Perplexity", "url": "https://www.perplexity.ai" },
+    { "id": "noi:chatgptsearch", "parent": "noi@search", "text": "ChatGPT search", "url": "https://chatgpt.com" },
+
+    { "id": "noi:canva", "parent": "noi@design", "text": "Canva Magic Studio", "url": "https://www.canva.com" },
+    { "id": "noi:looka", "parent": "noi@design", "text": "Looka", "url": "https://looka.com" },
+    { "id": "noi:figma", "parent": "noi@design", "text": "Figma", "url": "https://www.figma.com" },
+    { "id": "noi:dribbble", "parent": "noi@design", "text": "Dribbble", "url": "https://dribbble.com" },
+
+    { "id": "noi:lovable", "parent": "noi@apps", "text": "Lovable", "url": "https://lovable.dev" },
+    { "id": "noi:cursor", "parent": "noi@apps", "text": "Cursor", "url": "https://www.cursor.com" },
+
+    { "id": "noi:notionqa", "parent": "noi@knowledge", "text": "Notion Q&A", "url": "https://www.notion.com" },
+    { "id": "noi:guru", "parent": "noi@knowledge", "text": "Guru", "url": "https://www.getguru.com" },
+
+    { "id": "noi:hubspot", "parent": "noi@email", "text": "Hubspot Email Writer", "url": "https://www.hubspot.com" },
+    { "id": "noi:fyxer", "parent": "noi@email", "text": "Fyxer", "url": "https://www.fyxer.com" },
+    { "id": "noi:shortwave", "parent": "noi@email", "text": "Shortwave", "url": "https://www.shortwave.com" },
+    { "id": "noi:gmail", "parent": "noi@email", "text": "Gmail", "url": "https://mail.google.com" },
+    { "id": "noi:outlook", "parent": "noi@email", "text": "Outlook", "url": "https://outlook.live.com" },
+
+    { "id": "noi:reclaim", "parent": "noi@scheduling", "text": "Reclaim", "url": "https://reclaim.ai" },
+    { "id": "noi:clockwise", "parent": "noi@scheduling", "text": "Clockwise", "url": "https://www.getclockwise.com" },
+
+    { "id": "noi:gamma", "parent": "noi@presentations", "text": "Gamma", "url": "https://gamma.app" },
+    { "id": "noi:copilotppt", "parent": "noi@presentations", "text": "Copilot for PowerPoint", "url": "https://support.microsoft.com" },
+
+    { "id": "noi:teal", "parent": "noi@resume", "text": "Teal", "url": "https://www.tealhq.com" },
+    { "id": "noi:kickresume", "parent": "noi@resume", "text": "Kickresume", "url": "https://www.kickresume.com" },
+
+    { "id": "noi:elevenlabs", "parent": "noi@voice", "text": "ElevenLabs", "url": "https://elevenlabs.io" },
+    { "id": "noi:murf", "parent": "noi@voice", "text": "Murf", "url": "https://murf.ai" },
+
+    { "id": "noi:suno", "parent": "noi@music", "text": "Suno", "url": "https://suno.com" },
+    { "id": "noi:udio", "parent": "noi@music", "text": "Udio", "url": "https://www.udio.com" },
+
+    { "id": "noi:adcreative", "parent": "noi@marketing", "text": "AdCreative", "url": "https://www.adcreative.ai" },
+    { "id": "noi:airops", "parent": "noi@marketing", "text": "AirOps", "url": "https://www.airops.com" },
+
+    { "id": "noi:attio", "parent": "noi@sales", "text": "Attio", "url": "https://attio.com" },
+
+    { "id": "noi:github", "parent": "noi@dev", "text": "GitHub", "url": "https://github.com" },
+    { "id": "noi:replit", "parent": "noi@dev", "text": "Replit", "url": "https://replit.com" },
+    { "id": "noi:huggingface", "parent": "noi@dev", "text": "Hugging Face", "url": "https://huggingface.co" },
+    { "id": "noi:vscode", "parent": "noi@dev", "text": "VS Code", "url": "https://vscode.dev" },
+    { "id": "noi:projectidx", "parent": "noi@dev", "text": "Project IDX", "url": "https://idx.google.com" },
+
+    { "id": "noi:x", "parent": "noi@community", "text": "X", "url": "https://twitter.com" },
+    { "id": "noi:discord", "parent": "noi@community", "text": "Discord", "url": "https://discord.com" },
+    { "id": "noi:hackernews", "parent": "noi@community", "text": "Hacker News", "url": "https://news.ycombinator.com" }
+  ]
+}
